@@ -6,7 +6,7 @@
 
 An end-to-end data product on the real [MovieLens "latest-small"](https://grouplens.org/datasets/movielens/latest/) dataset (GroupLens Research: ~100,000 ratings, ~9,700 movies, 600+ users). It covers the full workflow: data ingestion → feature engineering → modeling with calibrated uncertainty → honest evaluation → two deployable interfaces.
 
-**[Live demo](https://YOUR-LIVE-DEMO-URL)** · **[Project page](https://YOUR-USERNAME.github.io/movie-studio/)** · **[API docs](#rest-api)** · **[Model card](MODEL_CARD.md)** · **[Results](docs/RESULTS.md)**
+**[Live demo](https://movie-studio-wujh.onrender.com)** · **[Project page](https://jacobconner069.github.io/movie-studio/)** · **[API docs](#rest-api)** · **[Model card](MODEL_CARD.md)** · **[Results](docs/RESULTS.md)**
 
 ![Dashboard overview](docs/screenshots/explore.png)
 

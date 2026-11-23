@@ -22,7 +22,7 @@ def main():
     pred = mid.predict(x_test)
     lo, hi = np.minimum(low.predict(x_test), pred), np.maximum(high.predict(x_test), pred)
     cv = cross_val_score(HistGradientBoostingRegressor(**params), x, y, cv=5, scoring="r2")
-    imp = permutation_importance(mid, x_test, y_test, n_repeats=5, random_state=42, n_jobs=-1)
+    imp = permutation_importance(mid, x_test, y_test, n_repeats=5, random_state=42, n_jobs=1)
     rmse = float(np.sqrt(mean_squared_error(y_test, pred)))
 
     idx = np.random.default_rng(0).choice(len(x_test), size=min(1200, len(x_test)), replace=False)
